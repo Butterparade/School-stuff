@@ -14,7 +14,6 @@ def polygon (n, length, color):
         turtle.left(angle)
     turtle.end_fill()
     return None
-
           
 def house ():
     """
