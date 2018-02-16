@@ -1,4 +1,5 @@
-"""Problem 1"""
+"""Project 4 by Jamie Thayer for CIS 122.
+Determining max loads, making houses, and finding the 10th ISBN digit"""
 
 import turtle
 
