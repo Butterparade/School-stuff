@@ -1,0 +1,45 @@
+body {
+	margin: 40px;
+}
+
+.mainHeader {
+	display: block;
+	text-align: center;
+}
+
+.noteTopic {
+	grid-ara: side;
+}
+
+.noteContent {
+	grid-area: content;
+}
+
+.noteHead {
+	grid-area: header;
+}
+
+.noteGrid {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-areas:
+	"....... header header"
+	"siderbar content content"
+	"footer footer footer";
+	background-color: #fff;
+	color: #444;
+}
+
+.gridBox {
+	background-color: #444;
+	color: #fff;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 150%;
+}
+	
+.mainFooter {
+		display: block;
+		text-align: center;
+}
